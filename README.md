@@ -17,24 +17,13 @@ Required vim compiled with +python or +python3.
 Use your plugin manager of choice.
 
 - [Pathogen](https://github.com/tpope/vim-pathogen)
-  - `git clone https://github.com/PegasusWang/vim-ubuntu-pastebin ~/.vim/bundle/vim-ubuntu-pastebin`
+  - `git clone https://github.com/MKutay/vim-ubuntu-paste ~/.vim/bundle/vim-ubuntu-paste`
 - [Vundle](https://github.com/gmarik/vundle)
-  - Add `Bundle 'https://github.com/PegasusWang/vim-ubuntu-pastebin'` to .vimrc
+  - Add `Bundle 'https://github.com/MKutay/vim-ubuntu-paste'` to .vimrc
   - Run `:BundleInstall`
 - [NeoBundle](https://github.com/Shougo/neobundle.vim)
-  - Add `NeoBundle 'https://github.com/PegasusWang/vim-ubuntu-pastebin'` to .vimrc
+  - Add `NeoBundle 'https://github.com/MKutay/vim-ubuntu-paste'` to .vimrc
   - Run `:NeoBundleInstall`
 - [vim-plug](https://github.com/junegunn/vim-plug)
-  - Add `Plug 'https://github.com/PegasusWang/vim-ubuntu-pastebin'` to .vimrc
+  - Add `Plug 'https://github.com/MKutay/vim-ubuntu-paste'` to .vimrc
   - Run `:PlugInstall`
-
-## Author
-- PegasusWang
-
-If you want to learn write vim plugin use python, see this youtube radio [Writing Vim plugins with Python](https://www.youtube.com/watch?v=vMAeYp8mX_M)
-[vim-plugin-starter-kit](https://github.com/JarrodCTaylor/vim-plugin-starter-kit)
-
-
-## 中文简介:
-如果你和我一样记性不好老是记不住scp命令怎么使的，可以试试直接安装这个插件之后在vim里执行 `:Pastebin` ，代码会自动贴到http://paste.ubuntu.com然后自动打开浏览器。
-如果你对怎么用python写vim插件有兴趣可以参考以上油管视频链接或者我的博客。
